@@ -1,0 +1,52 @@
+{
+  "tag": "3b_loop",
+  "model": "out/adapter_3b_loopv3",
+  "random": {
+    "n": 500,
+    "acc": 0.888,
+    "precision": 0.981,
+    "recall": 0.7984,
+    "f1": 0.8803,
+    "yes_ratio": 0.42,
+    "fp": 4,
+    "fn": 52,
+    "signed": -0.8571,
+    "unparsed": 0
+  },
+  "popular": {
+    "n": 500,
+    "acc": 0.874,
+    "precision": 0.9493,
+    "recall": 0.7984,
+    "f1": 0.8674,
+    "yes_ratio": 0.434,
+    "fp": 11,
+    "fn": 52,
+    "signed": -0.6508,
+    "unparsed": 0
+  },
+  "adversarial": {
+    "n": 500,
+    "acc": 0.832,
+    "precision": 0.8655,
+    "recall": 0.7984,
+    "f1": 0.8306,
+    "yes_ratio": 0.476,
+    "fp": 32,
+    "fn": 52,
+    "signed": -0.2381,
+    "unparsed": 0
+  },
+  "overall": {
+    "n": 1500,
+    "acc": 0.8647,
+    "precision": 0.9293,
+    "recall": 0.7984,
+    "f1": 0.8589,
+    "yes_ratio": 0.4433,
+    "fp": 47,
+    "fn": 156,
+    "signed": -0.5369,
+    "unparsed": 0
+  }
+}

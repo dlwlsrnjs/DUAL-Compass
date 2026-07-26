@@ -1,0 +1,10 @@
+{
+  "tag": "7b_base",
+  "n": 1500,
+  "acc": 0.8213,
+  "precision": 0.7682,
+  "recall": 0.9183,
+  "f1": 0.8366,
+  "yes_ratio": 0.5953,
+  "unparsed": 0
+}

@@ -1,0 +1,9 @@
+{
+  "tag": "3b_base_adv",
+  "n": 1341,
+  "fp_rate": 0.2907,
+  "fn_rate": 0.0333,
+  "acc": 0.8359,
+  "signed": 0.8,
+  "max_side": 512
+}

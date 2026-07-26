@@ -1,0 +1,36 @@
+{
+  "mode": "learn_only",
+  "model": "unsloth/Qwen2-VL-2B-Instruct",
+  "train_splits": [
+    "rand",
+    "pop"
+  ],
+  "eval_split": "adv",
+  "steps": 150,
+  "before": {
+    "fp": 89,
+    "fn": 1,
+    "tp": 139,
+    "tn": 21,
+    "fp_rate": 0.809,
+    "fn_rate": 0.007,
+    "signed": 0.978,
+    "acc": 0.64
+  },
+  "after": {
+    "fp": 110,
+    "fn": 0,
+    "tp": 140,
+    "tn": 0,
+    "fp_rate": 1.0,
+    "fn_rate": 0.0,
+    "signed": 1.0,
+    "acc": 0.56
+  },
+  "delta": {
+    "fp_rate": 0.191,
+    "fn_rate": -0.007,
+    "acc": -0.08,
+    "signed": 0.022
+  }
+}

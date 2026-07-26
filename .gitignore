@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.log
+# raw images are not redistributed
+images/
+*.jpg
+*.png
+*.jpeg

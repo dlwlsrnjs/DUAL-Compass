@@ -1,0 +1,52 @@
+{
+  "tag": "7b_loop",
+  "model": "out/adapter_llava7b_loop",
+  "random": {
+    "n": 500,
+    "acc": 0.91,
+    "precision": 0.9383,
+    "recall": 0.8837,
+    "f1": 0.9102,
+    "yes_ratio": 0.486,
+    "fp": 15,
+    "fn": 30,
+    "signed": -0.3333,
+    "unparsed": 0
+  },
+  "popular": {
+    "n": 500,
+    "acc": 0.868,
+    "precision": 0.8636,
+    "recall": 0.8837,
+    "f1": 0.8736,
+    "yes_ratio": 0.528,
+    "fp": 36,
+    "fn": 30,
+    "signed": 0.0909,
+    "unparsed": 0
+  },
+  "adversarial": {
+    "n": 500,
+    "acc": 0.8,
+    "precision": 0.7651,
+    "recall": 0.8837,
+    "f1": 0.8201,
+    "yes_ratio": 0.596,
+    "fp": 70,
+    "fn": 30,
+    "signed": 0.4,
+    "unparsed": 0
+  },
+  "overall": {
+    "n": 1500,
+    "acc": 0.8593,
+    "precision": 0.8497,
+    "recall": 0.8837,
+    "f1": 0.8664,
+    "yes_ratio": 0.5367,
+    "fp": 121,
+    "fn": 90,
+    "signed": 0.1469,
+    "unparsed": 0
+  }
+}

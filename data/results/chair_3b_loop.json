@@ -1,0 +1,87 @@
+{
+  "n": 200,
+  "chair_s": 0.885,
+  "chair_i": 0.4664,
+  "mean_words": 15.0,
+  "degenerate_rate": 0.0,
+  "samples": [
+    {
+      "file": "AMBER_301.jpg",
+      "caption": "A person wearing a white and black racing suit is riding a motorcycle on a city street.",
+      "n_words": 17,
+      "mentioned": 5,
+      "halluc": [
+        "person",
+        "street",
+        "black",
+        "suit"
+      ]
+    },
+    {
+      "file": "AMBER_554.jpg",
+      "caption": "The image shows a park with a paved path, green grass, and several benches surrounded by trees and bushes.",
+      "n_words": 19,
+      "mentioned": 7,
+      "halluc": [
+        "image",
+        "park"
+      ]
+    },
+    {
+      "file": "nocaps_002827.jpg",
+      "caption": "A black and white butterfly with blue spots is perched on a yellow flower against a blurred background of green leaves and red flowers.",
+      "n_words": 24,
+      "mentioned": 7,
+      "halluc": [
+        "black",
+        "blue"
+      ]
+    },
+    {
+      "file": "AMBER_767.jpg",
+      "caption": "A family of elephants, including adults and calves, stands together in a grassy savannah under a cloudy sky.",
+      "n_words": 18,
+      "mentioned": 2,
+      "halluc": []
+    },
+    {
+      "file": "vizwiz_003260.jpg",
+      "caption": "A person is sitting on the floor with their legs crossed.",
+      "n_words": 11,
+      "mentioned": 3,
+      "halluc": [
+        "person",
+        "floor",
+        "legs"
+      ]
+    },
+    {
+      "file": "AMBER_400.jpg",
+      "caption": "A neatly made bed with white sheets and pillows, next to a window with a view of a green landscape.",
+      "n_words": 20,
+      "mentioned": 6,
+      "halluc": [
+        "landscape",
+        "sheets",
+        "green"
+      ]
+    },
+    {
+      "file": "nocaps_003151.jpg",
+      "caption": "A white cup of coffee sits on a saucer with a spoon next to it.",
+      "n_words": 15,
+      "mentioned": 4,
+      "halluc": []
+    },
+    {
+      "file": "AMBER_517.jpg",
+      "caption": "A white horse stands on a grassy hillside next to a dirt road, with a car parked nearby and trees in the background.",
+      "n_words": 23,
+      "mentioned": 5,
+      "halluc": [
+        "background",
+        "trees"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "tag": "7b_loop_adv",
+  "n": 1341,
+  "fp_rate": 0.0,
+  "fn_rate": 0.9667,
+  "acc": 0.5242,
+  "signed": -1.0,
+  "max_side": 512
+}

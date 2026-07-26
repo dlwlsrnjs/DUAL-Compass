@@ -1,0 +1,10 @@
+{
+  "tag": "3b_loopv3",
+  "n": 1500,
+  "acc": 0.8547,
+  "precision": 0.8108,
+  "recall": 0.9237,
+  "f1": 0.8636,
+  "yes_ratio": 0.5673,
+  "unparsed": 0
+}

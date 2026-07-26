@@ -1,0 +1,91 @@
+{
+  "n": 8,
+  "chair_s": 0.875,
+  "chair_i": 0.475,
+  "mean_words": 21.2,
+  "degenerate_rate": 0.0,
+  "samples": [
+    {
+      "file": "AMBER_301.jpg",
+      "caption": "A person wearing a helmet and white racing suit is riding a motorcycle on a city street.",
+      "n_words": 17,
+      "mentioned": 5,
+      "halluc": [
+        "person",
+        "street",
+        "suit"
+      ]
+    },
+    {
+      "file": "AMBER_554.jpg",
+      "caption": "A park scene with a paved path, surrounded by lush greenery and a few benches.",
+      "n_words": 15,
+      "mentioned": 4,
+      "halluc": [
+        "greenery",
+        "park"
+      ]
+    },
+    {
+      "file": "nocaps_002827.jpg",
+      "caption": "A black and white butterfly with blue spots is perched on a yellow flower with a blurred blue background.",
+      "n_words": 19,
+      "mentioned": 5,
+      "halluc": [
+        "blue background",
+        "black",
+        "blue"
+      ]
+    },
+    {
+      "file": "AMBER_767.jpg",
+      "caption": "A group of elephants, including a mother and her young ones, are grazing in a grassy field with a cloudy sky in the background.",
+      "n_words": 24,
+      "mentioned": 5,
+      "halluc": [
+        "background",
+        "mother",
+        "field"
+      ]
+    },
+    {
+      "file": "vizwiz_003260.jpg",
+      "caption": "The image shows a shadowy figure against a plain background, creating a silhouette effect.",
+      "n_words": 14,
+      "mentioned": 4,
+      "halluc": [
+        "silhouette",
+        "background",
+        "figure",
+        "image"
+      ]
+    },
+    {
+      "file": "AMBER_400.jpg",
+      "caption": "A neatly made bed with white sheets and pillows, a bedside table with a lamp and a bowl, and a window with a view of a green field.",
+      "n_words": 28,
+      "mentioned": 8,
+      "halluc": [
+        "green field",
+        "sheets",
+        "bowl"
+      ]
+    },
+    {
+      "file": "nocaps_003151.jpg",
+      "caption": "A white coffee cup filled with dark coffee sits on a white saucer with a silver spoon resting on the saucer. The cup and saucer are placed on a red tablecloth.",
+      "n_words": 31,
+      "mentioned": 4,
+      "halluc": []
+    },
+    {
+      "file": "AMBER_517.jpg",
+      "caption": "A white horse stands on a dirt road next to a wooden fence, while a car with a person inside drives past.",
+      "n_words": 22,
+      "mentioned": 5,
+      "halluc": [
+        "person"
+      ]
+    }
+  ]
+}

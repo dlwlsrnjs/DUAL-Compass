@@ -1,0 +1,10 @@
+{
+  "tag": "2b_base",
+  "n": 1500,
+  "acc": 0.8707,
+  "precision": 0.8461,
+  "recall": 0.905,
+  "f1": 0.8745,
+  "yes_ratio": 0.5327,
+  "unparsed": 0
+}

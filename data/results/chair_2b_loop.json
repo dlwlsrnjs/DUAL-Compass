@@ -1,0 +1,100 @@
+{
+  "n": 200,
+  "chair_s": 0.945,
+  "chair_i": 0.559,
+  "mean_words": 22.8,
+  "degenerate_rate": 0.0,
+  "samples": [
+    {
+      "file": "AMBER_301.jpg",
+      "caption": "A person wearing a helmet and white racing suit is riding a motorcycle on a city street, with the number 69 visible on the side of the bike.",
+      "n_words": 28,
+      "mentioned": 6,
+      "halluc": [
+        "person",
+        "street",
+        "bike",
+        "suit"
+      ]
+    },
+    {
+      "file": "AMBER_554.jpg",
+      "caption": "A park scene with a paved path, surrounded by lush greenery and a few benches.",
+      "n_words": 15,
+      "mentioned": 4,
+      "halluc": [
+        "greenery",
+        "park"
+      ]
+    },
+    {
+      "file": "nocaps_002827.jpg",
+      "caption": "A black and white butterfly with blue spots is perched on a yellow flower with a blurred blue background.",
+      "n_words": 19,
+      "mentioned": 5,
+      "halluc": [
+        "blue background",
+        "black",
+        "blue"
+      ]
+    },
+    {
+      "file": "AMBER_767.jpg",
+      "caption": "A family of elephants, including two adults and three young ones, are grazing in a dry grassy field with a cloudy sky in the background.",
+      "n_words": 25,
+      "mentioned": 4,
+      "halluc": [
+        "background",
+        "field"
+      ]
+    },
+    {
+      "file": "vizwiz_003260.jpg",
+      "caption": "The image shows a shadowy figure against a plain background, possibly a wall or a door.",
+      "n_words": 16,
+      "mentioned": 5,
+      "halluc": [
+        "background",
+        "figure",
+        "image",
+        "door",
+        "wall"
+      ]
+    },
+    {
+      "file": "AMBER_400.jpg",
+      "caption": "The image shows a neatly made bed with white sheets and pillows, a wooden headboard, and a bedside table with a lamp and a bowl. The room has a light blue wall with a floral pattern and a window with a view of a green field.",
+      "n_words": 46,
+      "mentioned": 13,
+      "halluc": [
+        "floral pattern",
+        "green field",
+        "sheets",
+        "image",
+        "light",
+        "bowl",
+        "blue"
+      ]
+    },
+    {
+      "file": "nocaps_003151.jpg",
+      "caption": "A white ceramic cup filled with dark liquid, possibly coffee, sits on a matching saucer with a spoon resting on the saucer's edge. The background is a red tablecloth.",
+      "n_words": 29,
+      "mentioned": 8,
+      "halluc": [
+        "background",
+        "liquid",
+        "edge"
+      ]
+    },
+    {
+      "file": "AMBER_517.jpg",
+      "caption": "A white horse stands on a dirt road next to a wooden fence, while a car with a person inside drives past.",
+      "n_words": 22,
+      "mentioned": 5,
+      "halluc": [
+        "person"
+      ]
+    }
+  ]
+}

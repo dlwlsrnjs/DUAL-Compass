@@ -1,0 +1,10 @@
+{
+  "tag": "smoke_batched",
+  "n": 64,
+  "acc": 0.8906,
+  "precision": 0.8788,
+  "recall": 0.9062,
+  "f1": 0.8923,
+  "yes_ratio": 0.5156,
+  "unparsed": 0
+}

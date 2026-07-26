@@ -1,0 +1,9 @@
+{
+  "tag": "2b_dual_s0_full",
+  "n": 1341,
+  "fp_rate": 0.0147,
+  "fn_rate": 0.6652,
+  "acc": 0.6652,
+  "signed": -0.9555,
+  "max_side": 512
+}

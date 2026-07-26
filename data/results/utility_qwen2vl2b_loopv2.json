@@ -1,0 +1,94 @@
+{
+  "base": {
+    "n": 40,
+    "halluc_rate": 0.075,
+    "mean_words": 20.0,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "A wooden bench with a plaque on it is situated in a park-like setting with grass and a tree in the background.",
+        "halluc_mentions": [],
+        "n_words": 22
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man in a hat is standing at a counter in a fast-food restaurant, while another person is working behind the counter.",
+        "halluc_mentions": [],
+        "n_words": 22
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small, weathered boat is floating in calm waters near the shore, with a cloudy sky above.",
+        "halluc_mentions": [],
+        "n_words": 17
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "Two birds are swimming in a body of water with a golden hue, creating a serene and tranquil scene.",
+        "halluc_mentions": [],
+        "n_words": 19
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote in front of a television screen displaying a game.",
+        "halluc_mentions": [],
+        "n_words": 16
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "A poster for \"Abraham Lincoln: Vampire Hunter\" is displayed on a window, with the movie's title and release date prominently displayed.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 21
+      }
+    ]
+  },
+  "tuned": {
+    "n": 40,
+    "halluc_rate": 0.1,
+    "mean_words": 21.6,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "A wooden bench with a plaque on it is situated in a park-like setting with grass and a tree in the background.",
+        "halluc_mentions": [],
+        "n_words": 22
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man in a gray shirt and hat is standing at a counter in a fast-food restaurant, while another person is working behind the counter.",
+        "halluc_mentions": [],
+        "n_words": 25
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small, weathered boat is floating on calm waters near the shore, with a cloudy sky above.",
+        "halluc_mentions": [],
+        "n_words": 17
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "Two birds are swimming in a body of water with a golden hue, creating a serene and tranquil scene.",
+        "halluc_mentions": [],
+        "n_words": 19
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote in front of a television screen displaying a game.",
+        "halluc_mentions": [],
+        "n_words": 16
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "A poster for \"Abraham Lincoln: Vampire Hunter\" features a man in a top hat and tuxedo, holding a sword, with the text \"Abraham Lincoln Vampire Hunter\" and the release date \"June 22\" visible.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 33
+      }
+    ]
+  }
+}

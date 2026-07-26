@@ -1,0 +1,124 @@
+{
+  "mode": "loop",
+  "model": "unsloth/Qwen2-VL-2B-Instruct",
+  "tag": "qwen2vl2b_ext",
+  "steps_run": 300,
+  "history": [
+    {
+      "step": 0,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.688
+    },
+    {
+      "step": 20,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.675
+    },
+    {
+      "step": 40,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.775
+    },
+    {
+      "step": 60,
+      "probe_signed": 0.667,
+      "p_unlearn": 0.7,
+      "probe_acc": 0.925
+    },
+    {
+      "step": 80,
+      "probe_signed": 0.0,
+      "p_unlearn": 0.5,
+      "probe_acc": 0.925
+    },
+    {
+      "step": 100,
+      "probe_signed": -0.714,
+      "p_unlearn": 0.286,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 120,
+      "probe_signed": -0.75,
+      "p_unlearn": 0.275,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 140,
+      "probe_signed": -0.75,
+      "p_unlearn": 0.275,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 160,
+      "probe_signed": -0.714,
+      "p_unlearn": 0.286,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 180,
+      "probe_signed": -0.778,
+      "p_unlearn": 0.267,
+      "probe_acc": 0.887
+    },
+    {
+      "step": 200,
+      "probe_signed": -0.714,
+      "p_unlearn": 0.286,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 220,
+      "probe_signed": -0.818,
+      "p_unlearn": 0.255,
+      "probe_acc": 0.863
+    },
+    {
+      "step": 240,
+      "probe_signed": -0.143,
+      "p_unlearn": 0.457,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 260,
+      "probe_signed": -0.143,
+      "p_unlearn": 0.457,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 280,
+      "probe_signed": -0.333,
+      "p_unlearn": 0.4,
+      "probe_acc": 0.925
+    }
+  ],
+  "before": {
+    "fp": 89,
+    "fn": 1,
+    "tp": 139,
+    "tn": 21,
+    "fp_rate": 0.809,
+    "fn_rate": 0.007,
+    "signed": 0.978,
+    "acc": 0.64
+  },
+  "after": {
+    "fp": 26,
+    "fn": 8,
+    "tp": 132,
+    "tn": 84,
+    "fp_rate": 0.236,
+    "fn_rate": 0.057,
+    "signed": 0.529,
+    "acc": 0.864
+  },
+  "delta": {
+    "fp_rate": -0.573,
+    "fn_rate": 0.05,
+    "acc": 0.224,
+    "signed": -0.449
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tag": "3b_loop_adv",
+  "n": 1341,
+  "fp_rate": 0.1087,
+  "fn_rate": 0.1121,
+  "acc": 0.8896,
+  "signed": 0.0,
+  "max_side": 512
+}

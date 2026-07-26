@@ -1,0 +1,10 @@
+{
+  "tag": "2b_sftall_s0",
+  "n": 1500,
+  "acc": 0.5927,
+  "precision": 0.9658,
+  "recall": 0.1888,
+  "f1": 0.3158,
+  "yes_ratio": 0.0973,
+  "unparsed": 0
+}

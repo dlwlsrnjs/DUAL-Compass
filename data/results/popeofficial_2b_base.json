@@ -1,0 +1,52 @@
+{
+  "tag": "2b_base",
+  "model": "unsloth/Qwen2-VL-2B-Instruct",
+  "random": {
+    "n": 479,
+    "acc": 0.7286,
+    "precision": 1.0,
+    "recall": 0.4515,
+    "f1": 0.6221,
+    "yes_ratio": 0.2234,
+    "fp": 0,
+    "fn": 130,
+    "signed": -1.0,
+    "unparsed": 21
+  },
+  "popular": {
+    "n": 479,
+    "acc": 0.7286,
+    "precision": 1.0,
+    "recall": 0.4515,
+    "f1": 0.6221,
+    "yes_ratio": 0.2234,
+    "fp": 0,
+    "fn": 130,
+    "signed": -1.0,
+    "unparsed": 21
+  },
+  "adversarial": {
+    "n": 479,
+    "acc": 0.7265,
+    "precision": 0.9907,
+    "recall": 0.4515,
+    "f1": 0.6203,
+    "yes_ratio": 0.2255,
+    "fp": 1,
+    "fn": 130,
+    "signed": -0.9847,
+    "unparsed": 21
+  },
+  "overall": {
+    "n": 1437,
+    "acc": 0.7279,
+    "precision": 0.9969,
+    "recall": 0.4515,
+    "f1": 0.6215,
+    "yes_ratio": 0.2241,
+    "fp": 1,
+    "fn": 390,
+    "signed": -0.9949,
+    "unparsed": 63
+  }
+}

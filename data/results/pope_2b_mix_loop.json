@@ -1,0 +1,10 @@
+{
+  "tag": "2b_mix_loop",
+  "n": 1500,
+  "acc": 0.8547,
+  "precision": 0.7995,
+  "recall": 0.9451,
+  "f1": 0.8663,
+  "yes_ratio": 0.5887,
+  "unparsed": 0
+}

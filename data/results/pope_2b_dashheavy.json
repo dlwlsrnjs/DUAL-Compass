@@ -1,0 +1,10 @@
+{
+  "tag": "2b_dashheavy",
+  "n": 1500,
+  "acc": 0.7507,
+  "precision": 0.9172,
+  "recall": 0.5489,
+  "f1": 0.6868,
+  "yes_ratio": 0.298,
+  "unparsed": 0
+}

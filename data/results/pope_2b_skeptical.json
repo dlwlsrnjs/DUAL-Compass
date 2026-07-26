@@ -1,0 +1,10 @@
+{
+  "tag": "2b_skeptical",
+  "n": 1500,
+  "acc": 0.87,
+  "precision": 0.8366,
+  "recall": 0.9183,
+  "f1": 0.8756,
+  "yes_ratio": 0.5467,
+  "unparsed": 0
+}

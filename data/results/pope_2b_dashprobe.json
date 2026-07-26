@@ -1,0 +1,10 @@
+{
+  "tag": "2b_dashprobe",
+  "n": 1398,
+  "acc": 0.8205,
+  "precision": 0.7644,
+  "recall": 0.9479,
+  "f1": 0.8463,
+  "yes_ratio": 0.6466,
+  "unparsed": 102
+}

@@ -1,0 +1,154 @@
+{
+  "mode": "loop",
+  "model": "unsloth/Qwen2-VL-2B-Instruct",
+  "tag": "qwen2vl2b_dashheavy",
+  "steps_run": 400,
+  "history": [
+    {
+      "step": 0,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.575
+    },
+    {
+      "step": 20,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.575
+    },
+    {
+      "step": 40,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.6
+    },
+    {
+      "step": 60,
+      "probe_signed": 1.0,
+      "p_unlearn": 0.8,
+      "probe_acc": 0.683
+    },
+    {
+      "step": 80,
+      "probe_signed": 0.933,
+      "p_unlearn": 0.78,
+      "probe_acc": 0.75
+    },
+    {
+      "step": 100,
+      "probe_signed": 0.048,
+      "p_unlearn": 0.514,
+      "probe_acc": 0.825
+    },
+    {
+      "step": 120,
+      "probe_signed": -0.238,
+      "p_unlearn": 0.429,
+      "probe_acc": 0.825
+    },
+    {
+      "step": 140,
+      "probe_signed": -0.63,
+      "p_unlearn": 0.311,
+      "probe_acc": 0.775
+    },
+    {
+      "step": 160,
+      "probe_signed": 0.515,
+      "p_unlearn": 0.655,
+      "probe_acc": 0.725
+    },
+    {
+      "step": 180,
+      "probe_signed": 0.758,
+      "p_unlearn": 0.727,
+      "probe_acc": 0.725
+    },
+    {
+      "step": 200,
+      "probe_signed": 0.429,
+      "p_unlearn": 0.629,
+      "probe_acc": 0.708
+    },
+    {
+      "step": 220,
+      "probe_signed": 0.263,
+      "p_unlearn": 0.579,
+      "probe_acc": 0.683
+    },
+    {
+      "step": 240,
+      "probe_signed": -0.207,
+      "p_unlearn": 0.438,
+      "probe_acc": 0.517
+    },
+    {
+      "step": 260,
+      "probe_signed": -0.417,
+      "p_unlearn": 0.375,
+      "probe_acc": 0.4
+    },
+    {
+      "step": 280,
+      "probe_signed": -0.043,
+      "p_unlearn": 0.487,
+      "probe_acc": 0.617
+    },
+    {
+      "step": 300,
+      "probe_signed": 0.158,
+      "p_unlearn": 0.547,
+      "probe_acc": 0.683
+    },
+    {
+      "step": 320,
+      "probe_signed": -0.672,
+      "p_unlearn": 0.298,
+      "probe_acc": 0.492
+    },
+    {
+      "step": 340,
+      "probe_signed": 0.176,
+      "p_unlearn": 0.553,
+      "probe_acc": 0.575
+    },
+    {
+      "step": 360,
+      "probe_signed": 0.418,
+      "p_unlearn": 0.625,
+      "probe_acc": 0.542
+    },
+    {
+      "step": 380,
+      "probe_signed": 0.208,
+      "p_unlearn": 0.562,
+      "probe_acc": 0.6
+    }
+  ],
+  "before": {
+    "fp": 89,
+    "fn": 1,
+    "tp": 139,
+    "tn": 21,
+    "fp_rate": 0.809,
+    "fn_rate": 0.007,
+    "signed": 0.978,
+    "acc": 0.64
+  },
+  "after": {
+    "fp": 5,
+    "fn": 74,
+    "tp": 66,
+    "tn": 105,
+    "fp_rate": 0.045,
+    "fn_rate": 0.529,
+    "signed": -0.873,
+    "acc": 0.684
+  },
+  "delta": {
+    "fp_rate": -0.764,
+    "fn_rate": 0.522,
+    "acc": 0.044,
+    "signed": -1.851
+  }
+}

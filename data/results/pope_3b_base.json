@@ -1,0 +1,10 @@
+{
+  "tag": "3b_base",
+  "n": 1500,
+  "acc": 0.8753,
+  "precision": 0.8794,
+  "recall": 0.8688,
+  "f1": 0.8741,
+  "yes_ratio": 0.492,
+  "unparsed": 0
+}

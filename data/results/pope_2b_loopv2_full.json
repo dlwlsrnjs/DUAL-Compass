@@ -1,0 +1,10 @@
+{
+  "tag": "2b_loopv2_full",
+  "n": 2999,
+  "acc": 0.8409,
+  "precision": 0.7829,
+  "recall": 0.9433,
+  "f1": 0.8557,
+  "yes_ratio": 0.6022,
+  "unparsed": 0
+}

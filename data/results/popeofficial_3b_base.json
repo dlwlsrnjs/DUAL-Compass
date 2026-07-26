@@ -1,0 +1,52 @@
+{
+  "tag": "3b_base",
+  "model": "unsloth/Qwen2.5-VL-3B-Instruct",
+  "random": {
+    "n": 500,
+    "acc": 0.89,
+    "precision": 0.9903,
+    "recall": 0.7946,
+    "f1": 0.8817,
+    "yes_ratio": 0.414,
+    "fp": 2,
+    "fn": 53,
+    "signed": -0.9273,
+    "unparsed": 0
+  },
+  "popular": {
+    "n": 500,
+    "acc": 0.874,
+    "precision": 0.9577,
+    "recall": 0.7907,
+    "f1": 0.8662,
+    "yes_ratio": 0.426,
+    "fp": 9,
+    "fn": 54,
+    "signed": -0.7143,
+    "unparsed": 0
+  },
+  "adversarial": {
+    "n": 500,
+    "acc": 0.84,
+    "precision": 0.8836,
+    "recall": 0.7946,
+    "f1": 0.8367,
+    "yes_ratio": 0.464,
+    "fp": 27,
+    "fn": 53,
+    "signed": -0.325,
+    "unparsed": 0
+  },
+  "overall": {
+    "n": 1500,
+    "acc": 0.868,
+    "precision": 0.9417,
+    "recall": 0.7933,
+    "f1": 0.8612,
+    "yes_ratio": 0.4347,
+    "fp": 38,
+    "fn": 160,
+    "signed": -0.6162,
+    "unparsed": 0
+  }
+}

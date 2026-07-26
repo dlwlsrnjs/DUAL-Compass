@@ -1,0 +1,94 @@
+{
+  "base": {
+    "n": 40,
+    "halluc_rate": 0.15,
+    "mean_words": 14.7,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "A wooden bench with a plaque on the back is placed on a patch of grass and gravel.",
+        "halluc_mentions": [],
+        "n_words": 18
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man is standing at the counter of a fast food restaurant.",
+        "halluc_mentions": [],
+        "n_words": 12
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small boat is floating on the water with a cloudy sky above.",
+        "halluc_mentions": [],
+        "n_words": 13
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "A bird is swimming on the water at sunset, with its reflection visible in the ripples of the water.",
+        "halluc_mentions": [],
+        "n_words": 19
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote while playing a video game on a television.",
+        "halluc_mentions": [],
+        "n_words": 15
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "A movie poster for Abraham Lincoln Vampire Hunter.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 8
+      }
+    ]
+  },
+  "tuned": {
+    "n": 40,
+    "halluc_rate": 0.1,
+    "mean_words": 19.9,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "The image shows a wooden bench with slatted backrest and armrests, placed on a paved surface near a grassy area.",
+        "halluc_mentions": [],
+        "n_words": 20
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man is standing at the counter of a fast food restaurant, looking at the menu board.",
+        "halluc_mentions": [],
+        "n_words": 17
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small wooden boat is floating on calm water with a cloudy sky above.",
+        "halluc_mentions": [],
+        "n_words": 14
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "The image shows a bird swimming in the water at sunset, with the sun reflecting off the surface of the water creating a beautiful orange and yellow hue.",
+        "halluc_mentions": [],
+        "n_words": 28
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote control while playing a racing game on a television.",
+        "halluc_mentions": [],
+        "n_words": 16
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "The image shows a movie poster for \"Abraham Lincoln: Vampire Hunter\" featuring a man with a hat and cape.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 19
+      }
+    ]
+  }
+}

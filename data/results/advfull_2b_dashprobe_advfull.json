@@ -1,0 +1,9 @@
+{
+  "tag": "2b_dashprobe_advfull",
+  "n": 1341,
+  "fp_rate": 0.1747,
+  "fn_rate": 0.0803,
+  "acc": 0.8717,
+  "signed": 0.3837,
+  "max_side": 512
+}

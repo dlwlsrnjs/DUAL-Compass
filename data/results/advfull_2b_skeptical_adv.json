@@ -1,0 +1,9 @@
+{
+  "tag": "2b_skeptical_adv",
+  "n": 1341,
+  "fp_rate": 0.8311,
+  "fn_rate": 0.003,
+  "acc": 0.5764,
+  "signed": 0.993,
+  "max_side": 512
+}

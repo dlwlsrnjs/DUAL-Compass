@@ -1,0 +1,98 @@
+{
+  "base": {
+    "n": 40,
+    "halluc_rate": 0.125,
+    "mean_words": 11.4,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "A wooden bench with a plaque on it is located in a park.",
+        "halluc_mentions": [],
+        "n_words": 13
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man in a grey shirt is standing at the counter of a fast food restaurant.",
+        "halluc_mentions": [],
+        "n_words": 16
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small boat is floating in the ocean.",
+        "halluc_mentions": [],
+        "n_words": 8
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "Two ducks swimming in a body of water with a golden sunset in the background.",
+        "halluc_mentions": [
+          "ducks"
+        ],
+        "n_words": 15
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote and pointing it at a television.",
+        "halluc_mentions": [],
+        "n_words": 13
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "A movie poster for Abraham Lincoln: Vampire Hunter.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 8
+      }
+    ]
+  },
+  "tuned": {
+    "n": 40,
+    "halluc_rate": 0.1,
+    "mean_words": 10.3,
+    "degenerate_rate": 0.0,
+    "samples": [
+      {
+        "file": "AMBER_816.jpg",
+        "caption": "A wooden bench with a plaque on it.",
+        "halluc_mentions": [],
+        "n_words": 8
+      },
+      {
+        "file": "vizwiz_007702.jpg",
+        "caption": "A man in a grey shirt is standing at the counter of a fast food restaurant.",
+        "halluc_mentions": [],
+        "n_words": 16
+      },
+      {
+        "file": "AMBER_299.jpg",
+        "caption": "A small boat is floating in the water.",
+        "halluc_mentions": [],
+        "n_words": 8
+      },
+      {
+        "file": "AMBER_955.jpg",
+        "caption": "Two ducks swimming in the water.",
+        "halluc_mentions": [
+          "ducks"
+        ],
+        "n_words": 6
+      },
+      {
+        "file": "COCO_val2014_000000102439.jpg",
+        "caption": "A person is holding a Wii remote and pointing it at a television.",
+        "halluc_mentions": [],
+        "n_words": 13
+      },
+      {
+        "file": "vizwiz_003412.jpg",
+        "caption": "A movie poster for Abraham Lincoln Vampire Hunter.",
+        "halluc_mentions": [
+          "vampire"
+        ],
+        "n_words": 8
+      }
+    ]
+  }
+}

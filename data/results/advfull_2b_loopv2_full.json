@@ -1,0 +1,9 @@
+{
+  "tag": "2b_loopv2_full",
+  "n": 1341,
+  "fp_rate": 0.1938,
+  "fn_rate": 0.0682,
+  "acc": 0.868,
+  "signed": 0.4915,
+  "max_side": 512
+}

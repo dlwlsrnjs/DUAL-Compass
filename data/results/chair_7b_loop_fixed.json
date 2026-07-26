@@ -1,0 +1,81 @@
+{
+  "n": 200,
+  "chair_s": 0.8,
+  "chair_i": 0.4721,
+  "mean_words": 11.7,
+  "degenerate_rate": 0.0,
+  "samples": [
+    {
+      "file": "AMBER_301.jpg",
+      "caption": "A man wearing a white suit rides a motorcycle down the street.",
+      "n_words": 12,
+      "mentioned": 4,
+      "halluc": [
+        "street",
+        "suit",
+        "man"
+      ]
+    },
+    {
+      "file": "AMBER_554.jpg",
+      "caption": "A park bench is located in a park with a tree and a path.",
+      "n_words": 14,
+      "mentioned": 3,
+      "halluc": []
+    },
+    {
+      "file": "nocaps_002827.jpg",
+      "caption": "A butterfly is perched on a flower.",
+      "n_words": 7,
+      "mentioned": 2,
+      "halluc": []
+    },
+    {
+      "file": "AMBER_767.jpg",
+      "caption": "A herd of elephants, including a baby elephant, are grazing in a field.",
+      "n_words": 13,
+      "mentioned": 4,
+      "halluc": [
+        "field",
+        "baby"
+      ]
+    },
+    {
+      "file": "vizwiz_003260.jpg",
+      "caption": "A shadow of a hand is cast on a wall.",
+      "n_words": 10,
+      "mentioned": 3,
+      "halluc": [
+        "wall",
+        "hand"
+      ]
+    },
+    {
+      "file": "AMBER_400.jpg",
+      "caption": "A bed with white sheets and a blue bowl on a window sill.",
+      "n_words": 13,
+      "mentioned": 5,
+      "halluc": [
+        "sheets",
+        "blue",
+        "bowl"
+      ]
+    },
+    {
+      "file": "nocaps_003151.jpg",
+      "caption": "A cup of coffee is sitting on a white plate.",
+      "n_words": 10,
+      "mentioned": 3,
+      "halluc": [
+        "white plate"
+      ]
+    },
+    {
+      "file": "AMBER_517.jpg",
+      "caption": "A car is driving down a dirt road with a horse standing in the grass on the side.",
+      "n_words": 18,
+      "mentioned": 4,
+      "halluc": []
+    }
+  ]
+}

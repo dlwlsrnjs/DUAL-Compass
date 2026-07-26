@@ -1,0 +1,9 @@
+{
+  "tag": "2b_base_full",
+  "n": 1341,
+  "fp_rate": 0.7518,
+  "fn_rate": 0.003,
+  "acc": 0.6167,
+  "signed": 0.9922,
+  "max_side": 512
+}

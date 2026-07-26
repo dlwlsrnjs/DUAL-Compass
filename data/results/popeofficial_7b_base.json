@@ -1,0 +1,52 @@
+{
+  "tag": "7b_base",
+  "model": "unsloth/llava-1.5-7b-hf",
+  "random": {
+    "n": 500,
+    "acc": 0.89,
+    "precision": 0.8801,
+    "recall": 0.9109,
+    "f1": 0.8952,
+    "yes_ratio": 0.534,
+    "fp": 32,
+    "fn": 23,
+    "signed": 0.1636,
+    "unparsed": 0
+  },
+  "popular": {
+    "n": 500,
+    "acc": 0.86,
+    "precision": 0.8333,
+    "recall": 0.9109,
+    "f1": 0.8704,
+    "yes_ratio": 0.564,
+    "fp": 47,
+    "fn": 23,
+    "signed": 0.3429,
+    "unparsed": 0
+  },
+  "adversarial": {
+    "n": 500,
+    "acc": 0.784,
+    "precision": 0.7344,
+    "recall": 0.9109,
+    "f1": 0.8131,
+    "yes_ratio": 0.64,
+    "fp": 85,
+    "fn": 23,
+    "signed": 0.5741,
+    "unparsed": 0
+  },
+  "overall": {
+    "n": 1500,
+    "acc": 0.8447,
+    "precision": 0.8113,
+    "recall": 0.9109,
+    "f1": 0.8582,
+    "yes_ratio": 0.5793,
+    "fp": 164,
+    "fn": 69,
+    "signed": 0.4077,
+    "unparsed": 0
+  }
+}
