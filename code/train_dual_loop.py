@@ -31,10 +31,16 @@ def load(tag, splits):
     rows=[json.loads(l) for l in (OUT/f"dual_full_{tag}.jsonl").read_text().splitlines() if l.strip()]
     return [r for r in rows if r["split"] in splits]
 
+_IMG_CACHE={}
+def _load_img(fname):
+    if fname not in _IMG_CACHE:
+        im=Image.open(find_image(fname)).convert("RGB"); im.thumbnail((512,512)); _IMG_CACHE[fname]=im
+    return _IMG_CACHE[fname]
+
 def ans_ce(model, proc, r, answer, use_ref=False):
     msg=[{"role":"user","content":[{"type":"image"},{"type":"text","text":r["query"]}]}]
     prompt=proc.apply_chat_template(msg, add_generation_prompt=True)
-    image=Image.open(find_image(r["image"])).convert("RGB"); image.thumbnail((512,512))
+    image=_load_img(r["image"])
     enc=proc(images=[image], text=prompt+" "+answer, return_tensors="pt").to(model.device)
     encp=proc(images=[image], text=prompt, return_tensors="pt")
     plen=encp["input_ids"].shape[1]
@@ -78,8 +84,9 @@ def main():
     ap.add_argument("--eval_n", type=int, default=250)
     ap.add_argument("--probe_tag", default="")
     ap.add_argument("--save_adapter", default="")
+    ap.add_argument("--seed", type=int, default=0)
     a=ap.parse_args()
-    random.seed(0); torch.manual_seed(0)
+    random.seed(a.seed); torch.manual_seed(a.seed)
 
     model, proc = FastVisionModel.from_pretrained(a.model, load_in_4bit=False, dtype=torch.bfloat16)
     if "llava" in a.model.lower():
@@ -96,6 +103,7 @@ def main():
         finetune_vision_layers=False, finetune_language_layers=True,
         finetune_attention_modules=True, finetune_mlp_modules=False)
 
+    random.seed(a.seed); torch.manual_seed(a.seed)  # re-seed: unsloth reseeds RNG during model/peft load
     tr=load(a.tag, ["rand","pop","extra"])
     random.shuffle(tr)
     if a.probe_tag:
@@ -161,7 +169,8 @@ def main():
     res={"mode":"loop","model":a.model,"tag":a.tag,"steps_run":step,"history":hist,
          "before":before,"after":after,"delta":delta}
     _pbsuf = ("_pb"+a.probe_tag[-6:]) if a.probe_tag else ""
-    (OUT/f"result_{a.tag}_loop_{a.unlearn_mode}_g{a.gamma}_lr{a.lr}{_pbsuf}.json").write_text(json.dumps(res,indent=2))
+    _ssuf = f"_s{a.seed}" if a.seed != 0 else ""
+    (OUT/f"result_{a.tag}_loop_{a.unlearn_mode}_g{a.gamma}_lr{a.lr}{_pbsuf}{_ssuf}.json").write_text(json.dumps(res,indent=2))
     if a.save_adapter:
         model.save_pretrained(a.save_adapter); proc.save_pretrained(a.save_adapter)
         print("[saved adapter]",a.save_adapter, flush=True)

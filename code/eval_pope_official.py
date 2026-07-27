@@ -15,9 +15,20 @@ POPE = Path("/home/ubuntu/342/jinkwon/orthocampus/dual/pope_official")
 IMG  = POPE/"images"
 OUT  = Path("/home/ubuntu/342/jinkwon/orthocampus/dual/out")
 
-def load_split(sp, per_split=0):
+def _eval_img_set(n_train_img):
+    imgs=set()
+    for sp in ["random","popular","adversarial"]:
+        for l in (POPE/f"coco_pope_{sp}.json").read_text().splitlines():
+            if l.strip(): imgs.add(json.loads(l)["image"])
+    ordered=sorted(imgs)
+    return set(ordered[n_train_img:])  # held-out (eval) images, disjoint from train
+
+def load_split(sp, per_split=0, held_out=False, n_train_img=300):
     import random as _r
     rows=[json.loads(l) for l in (POPE/f"coco_pope_{sp}.json").read_text().splitlines() if l.strip()]
+    if held_out:
+        ev=_eval_img_set(n_train_img)
+        rows=[r for r in rows if r["image"] in ev]
     if per_split and per_split < len(rows):
         _r.Random(0).shuffle(rows); rows=rows[:per_split]
     return rows
@@ -28,6 +39,8 @@ def main():
     ap.add_argument("--adapter", default="")
     ap.add_argument("--tag", required=True)
     ap.add_argument("--per_split", type=int, default=500)
+    ap.add_argument("--held_out", action="store_true")   # eval only held-out (eval-split) COCO images
+    ap.add_argument("--n_train_img", type=int, default=300)
     a=ap.parse_args()
     path=a.adapter if a.adapter else a.model
     model, proc = FastVisionModel.from_pretrained(path, load_in_4bit=False, dtype=torch.bfloat16)
@@ -71,7 +84,7 @@ def main():
     all_res={"tag":a.tag,"model":path}
     agg=dict(tp=0,fp=0,tn=0,fn=0,miss=0)
     for sp in ["random","popular","adversarial"]:
-        rows=load_split(sp, a.per_split)
+        rows=load_split(sp, a.per_split, a.held_out, a.n_train_img)
         tp=fp=tn=fn=miss=0; i=0
         while i<len(rows):
             batch=rows[i:i+B]

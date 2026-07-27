@@ -1,0 +1,112 @@
+{
+  "mode": "loop",
+  "model": "unsloth/Qwen2-VL-2B-Instruct",
+  "tag": "qwen2vl2b_ext",
+  "steps_run": 240,
+  "history": [
+    {
+      "step": 0,
+      "probe_signed": 0.938,
+      "p_unlearn": 0.781,
+      "probe_acc": 0.6
+    },
+    {
+      "step": 20,
+      "probe_signed": 0.933,
+      "p_unlearn": 0.78,
+      "probe_acc": 0.625
+    },
+    {
+      "step": 40,
+      "probe_signed": 0.857,
+      "p_unlearn": 0.757,
+      "probe_acc": 0.825
+    },
+    {
+      "step": 60,
+      "probe_signed": 0.25,
+      "p_unlearn": 0.575,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 80,
+      "probe_signed": -0.333,
+      "p_unlearn": 0.4,
+      "probe_acc": 0.925
+    },
+    {
+      "step": 100,
+      "probe_signed": -0.429,
+      "p_unlearn": 0.371,
+      "probe_acc": 0.912
+    },
+    {
+      "step": 120,
+      "probe_signed": -0.5,
+      "p_unlearn": 0.35,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 140,
+      "probe_signed": -0.5,
+      "p_unlearn": 0.35,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 160,
+      "probe_signed": -0.556,
+      "p_unlearn": 0.333,
+      "probe_acc": 0.887
+    },
+    {
+      "step": 180,
+      "probe_signed": -0.75,
+      "p_unlearn": 0.275,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 200,
+      "probe_signed": -0.333,
+      "p_unlearn": 0.4,
+      "probe_acc": 0.925
+    },
+    {
+      "step": 220,
+      "probe_signed": 0.0,
+      "p_unlearn": 0.5,
+      "probe_acc": 0.9
+    },
+    {
+      "step": 240,
+      "probe_signed": 0.0,
+      "p_unlearn": 0.5,
+      "probe_acc": 0.9
+    }
+  ],
+  "before": {
+    "fp": 89,
+    "fn": 1,
+    "tp": 139,
+    "tn": 21,
+    "fp_rate": 0.809,
+    "fn_rate": 0.007,
+    "signed": 0.978,
+    "acc": 0.64
+  },
+  "after": {
+    "fp": 23,
+    "fn": 12,
+    "tp": 128,
+    "tn": 87,
+    "fp_rate": 0.209,
+    "fn_rate": 0.086,
+    "signed": 0.314,
+    "acc": 0.86
+  },
+  "delta": {
+    "fp_rate": -0.6,
+    "fn_rate": 0.079,
+    "acc": 0.22,
+    "signed": -0.664
+  }
+}

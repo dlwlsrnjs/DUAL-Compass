@@ -1,0 +1,52 @@
+{
+  "tag": "cocopope2b_loop_ho",
+  "model": "out/adapter_cocopope2b",
+  "random": {
+    "n": 399,
+    "acc": 0.9348,
+    "precision": 0.9745,
+    "recall": 0.9009,
+    "f1": 0.9363,
+    "yes_ratio": 0.4912,
+    "fp": 5,
+    "fn": 21,
+    "signed": -0.6154,
+    "unparsed": 1
+  },
+  "popular": {
+    "n": 399,
+    "acc": 0.9123,
+    "precision": 0.9317,
+    "recall": 0.9009,
+    "f1": 0.9161,
+    "yes_ratio": 0.5138,
+    "fp": 14,
+    "fn": 21,
+    "signed": -0.2,
+    "unparsed": 1
+  },
+  "adversarial": {
+    "n": 399,
+    "acc": 0.8922,
+    "precision": 0.8967,
+    "recall": 0.9009,
+    "f1": 0.8988,
+    "yes_ratio": 0.5338,
+    "fp": 22,
+    "fn": 21,
+    "signed": 0.0233,
+    "unparsed": 1
+  },
+  "overall": {
+    "n": 1197,
+    "acc": 0.9131,
+    "precision": 0.9332,
+    "recall": 0.9009,
+    "f1": 0.9168,
+    "yes_ratio": 0.5129,
+    "fp": 41,
+    "fn": 63,
+    "signed": -0.2115,
+    "unparsed": 3
+  }
+}

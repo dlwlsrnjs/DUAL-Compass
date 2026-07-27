@@ -1,0 +1,52 @@
+{
+  "tag": "cocopope3b_base_ho",
+  "model": "unsloth/Qwen2.5-VL-3B-Instruct",
+  "random": {
+    "n": 400,
+    "acc": 0.9025,
+    "precision": 0.9833,
+    "recall": 0.831,
+    "f1": 0.9008,
+    "yes_ratio": 0.45,
+    "fp": 3,
+    "fn": 36,
+    "signed": -0.8462,
+    "unparsed": 0
+  },
+  "popular": {
+    "n": 400,
+    "acc": 0.875,
+    "precision": 0.9267,
+    "recall": 0.831,
+    "f1": 0.8762,
+    "yes_ratio": 0.4775,
+    "fp": 14,
+    "fn": 36,
+    "signed": -0.44,
+    "unparsed": 0
+  },
+  "adversarial": {
+    "n": 400,
+    "acc": 0.8525,
+    "precision": 0.885,
+    "recall": 0.831,
+    "f1": 0.8571,
+    "yes_ratio": 0.5,
+    "fp": 23,
+    "fn": 36,
+    "signed": -0.2203,
+    "unparsed": 0
+  },
+  "overall": {
+    "n": 1200,
+    "acc": 0.8767,
+    "precision": 0.9299,
+    "recall": 0.831,
+    "f1": 0.8777,
+    "yes_ratio": 0.4758,
+    "fp": 40,
+    "fn": 108,
+    "signed": -0.4595,
+    "unparsed": 0
+  }
+}
